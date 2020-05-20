@@ -1,0 +1,15 @@
+
+
+@media screen and (max-width:479px) {
+  .row{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: auto;
+
+  }
+
+}
