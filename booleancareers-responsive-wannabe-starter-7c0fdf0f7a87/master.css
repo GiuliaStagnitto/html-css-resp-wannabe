@@ -17,5 +17,11 @@
   #why .row img {
     padding: 20px;
   }
-
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
