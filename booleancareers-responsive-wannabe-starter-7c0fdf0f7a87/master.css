@@ -2,14 +2,20 @@
 
 @media screen and (max-width:479px) {
   .row{
-    width: 100%;
-    margin: 0 auto;
+      width: 100%;
+      margin: 0 auto;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
-    float: none;
-    width: auto;
-
+      float: none;
+      width: auto;
+  }
+  img{
+    width: 100px;
+    height: auto;
+  }
+  #why .row img {
+    padding: 20px;
   }
 
 }
